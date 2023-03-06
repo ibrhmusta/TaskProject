@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CurrencyComponent } from './components/currency/currency.component';
 
 const routes: Routes = [
-  {path:"", component:CurrencyComponent},
+  {path:"currencies", component:CurrencyComponent},
 ];
 
 @NgModule({

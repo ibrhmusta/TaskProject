@@ -1,8 +1,21 @@
-# TaskApp
+  
+## Restful API: [Task App](https://github.com/ibrhmusta/TaskProject/tree/master/task "Task App")
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
+[Layers and files](#layers)
 
-## Development server
+[End Points](#endpoints)
+
+[Example out](#exampleout)
+
+## Introduction
+
+`npm install`  :  <i> In the project directory, you can create node_modules</i>
+
+`ng serve -o`  :  <i> In the project directory, you can run</i>
+
+
+
+## Development server  
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
@@ -10,18 +23,40 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Build 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.  
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).  
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.  
 
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Layers
+
+![layer](https://github.com/ibrhmusta/TaskProject/blob/master/taskUI/task-app/res/database.png)
+
+## EndPoints
+
+### `http://localhost:4200`
+
+`/currencies` : <i>Get Currencies</i>
+
+
+## Main Page
+![output](https://github.com/ibrhmusta/TaskProject/blob/master/taskUI/task-app/res/mainpage.png) 
+
+![output](https://github.com/ibrhmusta/TaskProject/blob/master/taskUI/task-app/res/mainpage2.png)
+
+## Example Output
+![output](https://github.com/ibrhmusta/TaskProject/blob/master/taskUI/task-app/res/output.png) 
+
+![output](https://github.com/ibrhmusta/TaskProject/blob/master/taskUI/task-app/res/outpu2.png)
